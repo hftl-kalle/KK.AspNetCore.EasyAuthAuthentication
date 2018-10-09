@@ -100,6 +100,12 @@ For example:
 );
 ```
 
+Remember to have a local dev-cert installed when using https. Otherwise me.json will not be retrieved
+
+```
+dotnet dev-certs https --trust
+```
+
 > **Info**: You can obtain the content for this file from an Azure Web App with EasyAuth configured by requesting the `/.auth/me` endpoint.
 
 ## Authors
